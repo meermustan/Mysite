@@ -1,0 +1,100 @@
+/*navbar*/
+#navbar{
+    flex-direction: column;
+    width: 100vw;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar img{
+  height: 40px;
+  margin:15px auto;
+}
+#navbar::before{
+  height: 130px;
+}
+#navbar ul li{
+  margin: 15px 3px;
+}
+#navbar ul li a{
+  font-size: 1.1rem;
+}
+/* Home */
+#home{
+  height: 430px;
+  width: 90%;
+}
+#home::before{
+  height: 350px;
+}
+#home h1{
+  font-size: 1.5rem;
+  margin-top: 30%;
+}
+#home p{
+  font-size: 0.8rem;
+}
+#home #btn{
+  height: 20px;
+  padding: 2px 5px;
+  font-size: 0.7rem;
+}
+/* services */
+#services{
+  flex-direction: column;
+}
+#h-services{
+  font-size: 1.5rem;
+}
+#services h2{
+  font-size:1.1rem;
+}
+#services img{
+  height: 100px;
+}
+#services p{
+  font-size: 0.8rem;
+}
+/* patners */
+#h-patners{
+  font-size: 1.5rem;
+}
+#patners{
+  flex-wrap: wrap;
+}
+#patners::before{
+  height:210px;
+}
+#patners img{
+  margin: 0;
+  height:35%;
+}
+/* contact  */
+#h-contact{
+  font-size: 1.5rem;
+}
+#contact{
+  margin: 8px 3px;
+}
+#contact::before{
+  width: 99%;
+  height: 300px;
+}
+#contact form{
+  font-size: 0.8rem;
+  height: 260px;
+  width: 80%;
+}
+#contact form input{
+  height: 20px;
+  border-radius: 4px;
+}
+#contact form textarea{
+  width: 100%;
+  height: 90px;
+}
+#contact form button{
+  font-size: 0.8rem;
+  margin-left: 75%;
+}

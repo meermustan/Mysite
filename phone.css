@@ -1,0 +1,57 @@
+/* Navbar */
+#navbar{
+    flex-direction: column;
+    width: 100vw;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar img{
+    height: 60px;
+    margin:15px auto;
+}
+#navbar::before{
+    height: 150px;
+}
+#navbar ul li a{
+padding: 2px 9px;
+}
+
+/* Home */
+#home{
+    width: 90%;
+    
+}
+#home h1{
+   margin-top: 100px;
+}
+/* services */
+#services{
+    flex-direction: column;
+}
+/* patners */
+#patners{
+    flex-wrap: wrap;
+}
+#patners::before{
+    height:240px;
+}
+#patners img{
+    height: 45%;
+}
+/* contact  */
+#contact::before{
+    height: 600px;
+}
+#contact form{
+    width: 80%;
+
+}
+#contact form button{
+    margin-left: 79%;
+}
+#contact form textarea{
+    width: 100%;
+    height: 190px;
+}
