@@ -93,6 +93,7 @@ html{
 }
 #services{
     display: flex;
+    flex-direction:column;
     
 }
 #services .services-container{
