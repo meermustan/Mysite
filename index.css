@@ -94,13 +94,16 @@ html{
 #services{
     display: flex;
     flex-direction:column;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
     
 }
 #services .services-container{
     background-color:  rgb(232 232 232);
     border: 2px solid green;
-    margin: 4px 12px;
+    margin: 12px 0px;
     border-radius: 23px;
+    width:330px;
 }
 #services-img1{
     margin-top: 14px;
