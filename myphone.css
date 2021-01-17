@@ -42,7 +42,7 @@
 }
 /* services */
 #services{
-  flex-direction: column;
+  flex-direction:row;
 }
 #h-services{
   font-size: 1.5rem;
