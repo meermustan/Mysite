@@ -93,7 +93,6 @@ html{
 }
 #services{
     display: flex;
-    flex-direction:column;
     flex-wrap:wrap;
     justify-content:space-evenly;
     
@@ -103,7 +102,7 @@ html{
     border: 2px solid green;
     margin: 12px 0px;
     border-radius: 23px;
-    width:330px;
+    width:47%;
 }
 #services-img1{
     margin-top: 14px;
